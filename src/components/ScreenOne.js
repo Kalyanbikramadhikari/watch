@@ -4,7 +4,7 @@ import LocalMallIcon from '@mui/icons-material/LocalMall';
 
 const ScreenOne = () => {
     return (
-        <div className='flex bg-slate-800 text-white px-20 items-center justify-between h-[91vh]' >
+        <div className='flex bg-slate-800 text-white px-20 items-center justify-between h-[99vh] border-2' >
             <div className="flex flex-col font-poppins gap-y-5">
                 <span className='text-[50px]'>Classic Watch Series</span>
                 <span className='text-[35px]'>Explore World's best Watches</span>
@@ -14,8 +14,8 @@ const ScreenOne = () => {
 
                 </div>
             </div>
-            <div className="flex">
-                <img src="/images/watchone.png" alt="" className='h-[470px]' />
+            <div className=" relative">
+                <img src="/images/watchone.png" alt="" className='h-[470px] w-auto  border-2 border-red-700 watch absolute' />
             </div>
 
 
